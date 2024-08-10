@@ -27,7 +27,7 @@ dag = DAG(
 )
 
 def extract_data():
-    url = 'https://www.googleapis.com/books/v1/volumes?q=learning+intitle:keyes&key=AIzaSyDqrGfz9uxKhrVzJGl9UOSixAq-Bx0i4PE'
+    url = 'https://www.googleapis.com/books/v1/volumes?q=learning+intitle:keyes&key=YOUR_GOOGLE_API_KEY'
     response = requests.get(url)
     data = response.json()
     books = []
