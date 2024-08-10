@@ -45,14 +45,14 @@ This project implements an ETL (Extract, Transform, Load) pipeline using Apache 
 3. **Workflow**:
    - The `extract_data` task must complete before the `upload_to_db` task can start, ensuring that data is always available before attempting to load it into the database.
 
-#Prerequisites
+##Prerequisites
 
 - **Python 3.x**
 - **Apache Airflow**
 - **SQLite** 
 - **Google Books API Key**: Replace `YOUR_GOOGLE_API_KEY` in the script with your actual API key.
 
-#Getting Started
+##Getting Started
 
 1. **Setup Airflow**:
    - Install Airflow using pip: `pip install apache-airflow`
